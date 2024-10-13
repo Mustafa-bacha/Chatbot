@@ -9,8 +9,6 @@ from dotenv import load_dotenv
 
 # Load environment variables for OpenAI API key
 _ = load_dotenv()
-_ = st.secrets['OPENAI_API_KEY']
-
 
 # Load your CSV file with FAQs
 loader = CSVLoader(file_path="combined_data.csv", encoding="utf-8")
