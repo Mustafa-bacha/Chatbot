@@ -1,5 +1,6 @@
 langchain_community
 openai
+tiktoken
 Cython==0.29.36  
 attr==0.3.2
 colorama==0.4.6
