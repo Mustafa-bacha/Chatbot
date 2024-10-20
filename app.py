@@ -15,7 +15,7 @@ VALID_CREDENTIALS = os.getenv("VALID_CREDENTIALS", "")
 VALID_CREDENTIALS = dict(cred.split(":") for cred in VALID_CREDENTIALS.split(","))
 
 # Load your CSV file with FAQs
-loader = CSVLoader(file_path="FairPrice Online.csv", encoding="utf-8")
+loader = CSVLoader(file_path="pric.csv", encoding="utf-8")
 
 # Set up the OpenAI embeddings
 embeddings = OpenAIEmbeddings()
